@@ -18,8 +18,8 @@ user = input("What is your username? \n")
 #Function to determine if password is strong enough
 def PassHas():
 #Creates a while loop to ensure all checks are met 
-    while True:
-      pw = input("What password will you try?\n")
+        while True:
+        pw = input("What password will you try?\n")
         conditions_not_met = []
 #Checks is password is 10 or more characters
         if len(pw) < 10:
