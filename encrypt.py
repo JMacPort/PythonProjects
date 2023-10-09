@@ -2,7 +2,7 @@
 # like re. Once I completed the password checker, I then worked on the encryptor which again I had to find the library hashlib but it was very easy to implement. Now I needed to find something to salt the passwords in the case of duplicate entries. 
 # For this, I used the string and random libraries as these were able to define a set of acceptable characters and then join them together with a predefined amount such as 4. The last piece of the program is the try/except statement which is straightforward
 # uses the os library to implement the creation of a new directory such as the Hashes. I used many comments in the code to demonstrate knowing what each line does but most of the code speaks for itself. 
-# To run: Open a Command Prompt type ```Python3.10 encrypt.py``` may need to change python version depending on which version you are using. 
+# To run: Open a Command Prompt type "Python3.10 encrypt.py" (without quotes) may need to change python version depending on which version you are using. 
 # Note: This will only work on Windows due to the predifined path. If you would like to try on a different OS, change the paths listed in the try/except statements to whatever works for your OS. 
 # Enjoy
 
